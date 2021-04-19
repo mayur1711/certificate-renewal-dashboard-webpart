@@ -34,6 +34,7 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 ## Adhoc Frameworks/Components used:
 
 - React JS
+- Chart JS
 - PNP SPFX Controls React
 - Fluent UI (Office UI)
 
