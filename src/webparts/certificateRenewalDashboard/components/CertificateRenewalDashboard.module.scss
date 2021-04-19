@@ -1,0 +1,23 @@
+.certificateRenewalDashboard {
+  :global {
+    .ignore-this-dummy-class {
+      display: none;
+    }
+    .p-xy-8 {
+      padding: 8px;
+    }
+    .m-top-16 {
+      margin-top: 16px;
+    }
+    .center-xy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .container {
+    padding: 16px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+}
