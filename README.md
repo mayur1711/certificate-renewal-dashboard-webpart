@@ -31,6 +31,14 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 
 <br>
 
+## Adhoc Frameworks/Components used:
+
+- React JS
+- PNP SPFX Controls React
+- Fluent UI (Office UI)
+
+<br>
+
 ## Applies to
 
 - [SharePoint Framework](https://aka.ms/spfx)
@@ -80,15 +88,8 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 - Ensure that installed Node version is v10.x.x
 - in the command-line run:
   - **npm install**
-  - **gulp serve**
-
-<br>
-
-## Adhoc Frameworks/Components used:
-
-- React JS
-- PNP SPFX Controls React
-- Fluent UI (Office UI)
+  - **gulp serve** [for dev build]
+  - **gulp bundle --ship && gulp package-solution --ship** [for prod build]
 
 <br>
 
