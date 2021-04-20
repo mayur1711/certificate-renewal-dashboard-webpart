@@ -17,12 +17,12 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 
 - **External Certificate Dashboard**
 
-  <img alt="External Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/external-certificates.jpg" style="width:100%;max-width:800px"/>
+  <img alt="External Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/external-certificates-metrics.jpg" style="width:100%;max-width:800px"/>
   <br><br>
 
 - **Internal Certificate Dashboard**
 
-  <img alt="Internal Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/internal-certificates.jpg" style="width:100%;max-width:800px"/>
+  <img alt="Internal Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/internal-certificates-metrics.jpg" style="width:100%;max-width:800px"/>
 
 <br>
 
