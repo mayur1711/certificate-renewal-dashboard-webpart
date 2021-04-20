@@ -2,7 +2,8 @@
 
 ## Summary
 
-This web part was designed to provide a dashboard view of the SSL certificates expiring in the current year.  
+This web part was designed using SharepPoint Framework (SPFX) + React JS.  
+It provides a dashboard view of the SSL certificates expiring in the current year.  
 The dashboard has two components -
 
 - **Bar Chart** - displays the count of certificates expiring vs month
@@ -16,12 +17,12 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 
 - **External Certificate Dashboard**
 
-  <img alt="External Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/external-certificates.JPG" style="width:100%;max-width:800px"/>
+  <img alt="External Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/external-certificates.jpg" style="width:100%;max-width:800px"/>
   <br><br>
 
 - **Internal Certificate Dashboard**
 
-  <img alt="Internal Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/internal-certificates.JPG" style="width:100%;max-width:800px"/>
+  <img alt="Internal Certificate Dashboard" src="https://github.com/mayur1711/certificate-renewal-dashboard-webpart/blob/main/output/internal-certificates.jpg" style="width:100%;max-width:800px"/>
 
 <br>
 
@@ -36,7 +37,7 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 - React JS
 - Chart JS
 - PNP SPFX Controls React
-- Fluent UI (Office UI)
+- Fluent UI (Office UI Fabric)
 
 <br>
 
@@ -50,8 +51,8 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 ## Prerequisites
 
 - Node v10.x.x
-- Certificate lists with below schema -
-  | List Name | Columns |
+- SharePoint lists with below schema -
+  | List Name             | Columns               |
   | --------------------- | --------------------- |
   | External Certificates | Title, ExpirationDate |
   | Internal Certificates | Title, ExpirationDate |
@@ -84,12 +85,12 @@ This dashboard allowed the team to efficiently plan the renewal/revocation of SS
 
 ## Minimal Path to Awesome
 
+- Ensure that installed Node version is v10.x.x
 - Clone this repository
 - Ensure that you are at the solution folder
-- Ensure that installed Node version is v10.x.x
-- in the command-line run:
+- In the command-line run:
   - **npm install**
-  - **gulp serve** [for dev build]
+  - **gulp serve** [for dev workbench]
   - **gulp bundle --ship && gulp package-solution --ship** [for prod build]
 
 <br>
