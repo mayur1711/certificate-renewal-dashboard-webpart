@@ -2,7 +2,7 @@
 
 ## Summary
 
-This web part was designed using SharepPoint Framework (SPFX) + React JS.  
+This web part was designed using SharePoint Framework (SPFX) and React JS.  
 It provides a dashboard view of the SSL certificates expiring in the current year.  
 The dashboard has two components -
 
